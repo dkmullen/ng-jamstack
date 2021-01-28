@@ -1,8 +1,8 @@
 # example netlify.toml
 [build]
-  command = "ng build --prod"
+  command = "ng build --prod && npm run scully"
   functions = "functions"
-  publish = "dist/angular-explorer"
+  publish = "dist/static"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
